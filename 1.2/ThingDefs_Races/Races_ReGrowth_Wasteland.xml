@@ -481,7 +481,6 @@
     </PawnKindDef>
 
     <!-- ======================= Wasteland Bear (Rimguai) =============================== -->
-
     <ThingDef ParentName="BaseBear">
         <defName>RG-WF_WastelandBear</defName>
         <label>rimguai</label>
@@ -550,35 +549,39 @@
             </li>
         </lifeStages>
     </PawnKindDef>
-	
-    <!-- ======================= Wasteland Deathclaw (Rimclaw) =============================== -->
 
-    <ThingDef ParentName="BigBirdThingBase">
+    <!-- ======================= Wasteland Deathclaw (Rimclaw) =============================== -->
+    <ThingDef ParentName="AnimalThingBase">
         <defName>RG-WF_Rimclaw</defName>
         <label>rimclaw</label>
-        <description></description>
+        <description>Deathclaws are giant apex predators mutated from iguana, constantly roaming wasteland environements in search for prey. Rimclaws are incredibly fast, powerful and intelligent.</description>
         <statBases>
-            <MoveSpeed>5.5</MoveSpeed>
+            <MoveSpeed>5.20</MoveSpeed>
             <MarketValue>2500</MarketValue>
             <ComfyTemperatureMin>-8</ComfyTemperatureMin>
-            <ComfyTemperatureMax>50</ComfyTemperatureMax>
+            <ComfyTemperatureMax>65</ComfyTemperatureMax>
         </statBases>
         <race>
-			<body>RG-WF_RimClawBody</body>
+            <body>RG-WF_HumanoidWithHornsAndClaws</body>
             <herdAnimal>false</herdAnimal>
-            <baseBodySize>0.8</baseBodySize>
-            <baseHealthScale>0.9</baseHealthScale>
-            <baseHungerRate>0.4</baseHungerRate>
-            <foodType>VegetarianRoughAnimal</foodType>
-            <wildness>0.95</wildness>
+            <predator>true</predator>
+            <baseBodySize>1</baseBodySize>
+            <baseHealthScale>4.5</baseHealthScale>
+            <baseHungerRate>0.5</baseHungerRate>
+            <foodType>CarnivoreAnimal</foodType>
+			<leatherDef>Leather_Lizard</leatherDef>
+            <wildness>0.99</wildness>
+            <trainability>Advanced</trainability>
             <lifeExpectancy>45</lifeExpectancy>
-            <useMeatFrom>Cassowary</useMeatFrom>
+            <meatLabel>rimclaw meat</meatLabel>
+            <lifeExpectancy>80</lifeExpectancy>
+            <herdMigrationAllowed>false</herdMigrationAllowed>
             <manhunterOnTameFailChance>1.00</manhunterOnTameFailChance>
             <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
         </race>
         <comps>
             <li Class="CompProperties_EggLayer">
-                <eggFertilizedDef>EggEmuFertilized</eggFertilizedDef>
+                <eggFertilizedDef>RG-WF_RimclawEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>3</eggFertilizationCountMax>
                 <eggLayIntervalDays>30</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -587,37 +590,59 @@
         </comps>
         <tools>
             <li>
-                <label>claws</label>
+                <label>horn</label>
                 <capacities>
                     <li>Scratch</li>
+                    <li>Stab</li>
                 </capacities>
-                <power>8</power>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>left claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                    <li>Stab</li>
+                </capacities>
+                <power>25</power>
                 <cooldownTime>1.5</cooldownTime>
-                <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
-                <surpriseAttack>
-                    <extraMeleeDamages>
-                        <li>
-                            <def>Stun</def>
-                            <amount>14</amount>
-                        </li>
-                    </extraMeleeDamages>
-                </surpriseAttack>
+                <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>right claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                    <li>Stab</li>
+                </capacities>
+                <power>25</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>2.5</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.7</chanceFactor>
             </li>
             <li>
                 <label>head</label>
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>6</power>
-                <cooldownTime>2</cooldownTime>
+                <power>18</power>
+                <cooldownTime>1.95</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-                <chanceFactor>0.2</chanceFactor>
+                <chanceFactor>0.4</chanceFactor>
             </li>
         </tools>
         <tradeTags>
             <li>AnimalExotic</li>
-			<li>RG-WF_AnimalWasteland</li>
+            <li>RG-WF_AnimalWasteland</li>
         </tradeTags>
     </ThingDef>
 
@@ -625,6 +650,7 @@
         <defName>RG-WF_Rimclaw</defName>
         <label>rimclaw</label>
         <race>RG-WF_Rimclaw</race>
+        <combatPower>350</combatPower>
         <lifeStages>
             <li>
                 <bodyGraphicData>
@@ -639,7 +665,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclaw</texPath>
-                    <drawSize>1.3</drawSize>
+                    <drawSize>1.6</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.3)</offset>
@@ -647,13 +673,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>Things/Pawn/Animal/Emu/Dessicated_Emu</texPath>
-                    <drawSize>1.3</drawSize>
+                    <drawSize>1.6</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclaw</texPath>
-                    <drawSize>1.6</drawSize>
+                    <drawSize>2.4</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -661,7 +687,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>Things/Pawn/Animal/Emu/Dessicated_Emu</texPath>
-                    <drawSize>1.6</drawSize>
+                    <drawSize>2.4</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

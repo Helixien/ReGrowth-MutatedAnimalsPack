@@ -564,6 +564,7 @@
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
         </statBases>
         <race>
+			<body>RG-WF_RimClawBody</body>
             <herdAnimal>false</herdAnimal>
             <baseBodySize>0.8</baseBodySize>
             <baseHealthScale>0.9</baseHealthScale>

@@ -227,7 +227,7 @@
     </BodyDef>
 	
     <BodyDef>
-        <defName>RG-WF_RimClaw</defName>
+        <defName>RG-WF_RimClawBody</defName>
         <label>placeholder</label>
         <corePart>
             <def>Body</def>

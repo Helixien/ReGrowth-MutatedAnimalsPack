@@ -50,7 +50,7 @@
                 </capacities>
                 <power>4</power>
                 <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <linkedBodyPartsGroup>RG-WF_RightHeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
                 <chanceFactor>0.2</chanceFactor>
             </li>
@@ -61,7 +61,7 @@
                 </capacities>
                 <power>6</power>
                 <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <linkedBodyPartsGroup>RG-WF_LeftHeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
                 <chanceFactor>0.2</chanceFactor>
             </li>
@@ -151,9 +151,10 @@
             <li>
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeerMale</texPath>
-                    <drawSize>3.6</drawSize>
+                    <drawSize>1.7</drawSize>
                     <color>(156,112,62)</color>
                     <shaderType>CutoutComplex</shaderType>
+                    <color>(140,74,41)</color>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -161,7 +162,7 @@
                 </bodyGraphicData>
                 <femaleGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeerFemale</texPath>
-                    <drawSize>1.8</drawSize>
+                    <drawSize>1.7</drawSize>
                     <color>(188,146,110)</color>
                     <shaderType>CutoutComplex</shaderType>
                     <shadowData>
@@ -290,7 +291,6 @@
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandSquirrel/WastelandSquirrel</texPath>
                     <drawSize>1</drawSize>
-                    <color>(161,95,38)</color>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>Things/Pawn/Animal/Squirrel/Dessicated_Squirrel</texPath>
@@ -301,18 +301,15 @@
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandSquirrel/WastelandSquirrel</texPath>
                     <drawSize>1.25</drawSize>
-                    <color>(161,95,38)</color>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>Things/Pawn/Animal/Squirrel/Dessicated_Squirrel</texPath>
-                    <drawSize>1.25</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandSquirrel/WastelandSquirrel</texPath>
                     <drawSize>1.5</drawSize>
-                    <color>(161,95,38)</color>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>Things/Pawn/Animal/Squirrel/Dessicated_Squirrel</texPath>
@@ -506,7 +503,6 @@
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandBear/WastelandBear</texPath>
                     <drawSize>1.4</drawSize>
-                    <color>(112,82,65)</color>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -521,7 +517,6 @@
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandBear/WastelandBear</texPath>
                     <drawSize>2</drawSize>
-                    <color>(112,82,65)</color>
                     <shadowData>
                         <volume>(0.6, 0.45, 0.45)</volume>
                         <offset>(0,0,-0.25)</offset>
@@ -536,7 +531,6 @@
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandBear/WastelandBear</texPath>
                     <drawSize>2.7</drawSize>
-                    <color>(112,82,65)</color>
                     <shadowData>
                         <volume>(0.8, 0.6, 0.6)</volume>
                         <offset>(0,0,-0.3)</offset>
@@ -572,7 +566,6 @@
 			<leatherDef>Leather_Lizard</leatherDef>
             <wildness>0.99</wildness>
             <trainability>Advanced</trainability>
-            <lifeExpectancy>45</lifeExpectancy>
             <meatLabel>rimclaw meat</meatLabel>
             <lifeExpectancy>80</lifeExpectancy>
             <herdMigrationAllowed>false</herdMigrationAllowed>

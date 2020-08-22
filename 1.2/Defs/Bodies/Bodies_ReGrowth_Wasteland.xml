@@ -62,7 +62,7 @@
                             <def>RG-WF_LeftHead</def>
                             <coverage>0.325</coverage>
                             <groups>
-                                <li>HeadAttackTool</li>
+                                <li>RG-WF_LeftHeadAttackTool</li>
                             </groups>
                             <parts>
                                 <li>
@@ -114,7 +114,7 @@
                             <def>RG-WF_RightHead</def>
                             <coverage>0.325</coverage>
                             <groups>
-                                <li>HeadAttackTool</li>
+                                <li>RG-WF_RightHeadAttackTool</li>
                             </groups>
                             <parts>
                                 <li>

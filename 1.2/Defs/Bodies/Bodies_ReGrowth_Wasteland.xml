@@ -55,11 +55,11 @@
                 </li>
                 <li>
                     <def>Neck</def>
-                    <coverage>0.22</coverage>
+                    <coverage>0.11</coverage>
                     <height>Top</height>
                     <parts>
                         <li>
-                            <def>RG-WF_LeftHead</def>
+                            <def>Head</def>
                             <coverage>0.325</coverage>
                             <groups>
                                 <li>RG-WF_LeftHeadAttackTool</li>
@@ -110,8 +110,15 @@
                                 </li>
                             </parts>
                         </li>
+                    </parts>
+                </li>
+                <li>
+                    <def>Neck</def>
+                    <coverage>0.11</coverage>
+                    <height>Top</height>
+                    <parts>
                         <li>
-                            <def>RG-WF_RightHead</def>
+                            <def>Head</def>
                             <coverage>0.325</coverage>
                             <groups>
                                 <li>RG-WF_RightHeadAttackTool</li>

@@ -154,7 +154,6 @@
                     <drawSize>1.7</drawSize>
                     <color>(156,112,62)</color>
                     <shaderType>CutoutComplex</shaderType>
-                    <color>(140,74,41)</color>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>

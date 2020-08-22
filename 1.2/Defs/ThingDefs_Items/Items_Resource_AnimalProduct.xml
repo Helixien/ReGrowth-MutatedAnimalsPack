@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="EggFertBase">
+        <defName>RG-WF_RimclawEggFertilized</defName>
+        <label>rimwclaw egg (fert.)</label>
+        <description>A fertilized rimclaw egg. If all goes well, it should hatch into a baby rimclaw. It can be eaten raw, but it's much better cooked.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+            <color>(245,245,245)</color>
+            <drawSize>(0.4,0.4)</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>125.0</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>12</hatcherDaystoHatch>
+                <hatcherPawn>RG-WF_Rimclaw</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

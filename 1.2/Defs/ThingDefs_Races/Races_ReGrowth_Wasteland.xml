@@ -9,8 +9,8 @@
         <statBases>
             <MoveSpeed>5.3</MoveSpeed>
             <MarketValue>145</MarketValue>
-            <ComfyTemperatureMin>-45</ComfyTemperatureMin>
-            <ComfyTemperatureMax>15</ComfyTemperatureMax>
+            <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+            <ComfyTemperatureMax>25</ComfyTemperatureMax>
         </statBases>
         <tools>
             <li>
@@ -124,7 +124,7 @@
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeer</texPath>
                     <drawSize>1.1</drawSize>
-                    <color>(140,74,41)</color>
+                    <color>(142,126,126)</color>
                     <shaderType>CutoutComplex</shaderType>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
@@ -136,7 +136,7 @@
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeer</texPath>
                     <drawSize>1.5</drawSize>
-                    <color>(140,74,41)</color>
+                    <color>(142,126,126)</color>
                     <shaderType>CutoutComplex</shaderType>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
@@ -151,8 +151,8 @@
             <li>
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeerMale</texPath>
-                    <drawSize>1.7</drawSize>
-                    <color>(156,112,62)</color>
+                    <drawSize>2.2</drawSize>
+                    <color>(122,103,103)</color>
                     <shaderType>CutoutComplex</shaderType>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
@@ -161,8 +161,8 @@
                 </bodyGraphicData>
                 <femaleGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeerFemale</texPath>
-                    <drawSize>1.7</drawSize>
-                    <color>(188,146,110)</color>
+                    <drawSize>2.2</drawSize>
+                    <color>(137,116,116)</color>
                     <shaderType>CutoutComplex</shaderType>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
@@ -171,11 +171,11 @@
                 </femaleGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerMale</texPath>
-                    <drawSize>3.6</drawSize>
+                    <drawSize>2.2</drawSize>
                 </dessicatedBodyGraphicData>
                 <femaleDessicatedBodyGraphicData>
                     <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerFemale</texPath>
-                    <drawSize>1.8</drawSize>
+                    <drawSize>2.2</drawSize>
                 </femaleDessicatedBodyGraphicData>
             </li>
         </lifeStages>

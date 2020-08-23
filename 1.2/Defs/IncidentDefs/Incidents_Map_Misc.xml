@@ -1,17 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <IncidentDef>
-    <defName>RGW_DeathclawsPasses</defName>
-    <label>deathclaw pass</label>
-    <category>Misc</category>
-    <targetTags>
-      <li>Map_PlayerHome</li>
-    </targetTags>
-    <workerClass>RGW_Wasteland.IncidentWorker_DeathclawsPasses</workerClass>
-    <baseChance>0.7</baseChance>
-    <minRefireDays>13</minRefireDays>
-  </IncidentDef>
-  
+    <IncidentDef>
+        <defName>RG-WF_Rimclaw_DeathclawsPasses</defName>
+        <label>rimhclaw pass</label>
+        <category>Misc</category>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>RGWF_Wasteland.IncidentWorker_DeathclawsPasses</workerClass>
+        <baseChance>0.7</baseChance>
+        <minRefireDays>13</minRefireDays>
+    </IncidentDef>
 
 </Defs>

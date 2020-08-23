@@ -1,0 +1,5 @@
+E:\Steam Games\steamapps\common\RimWorld\Mods\ReGrowth-Wasteland-AnimalsAddon\1.2\Assemblies\WastelandAnimals.dll
+E:\Steam Games\steamapps\common\RimWorld\Mods\ReGrowth-Wasteland-AnimalsAddon\1.2\Assemblies\WastelandAnimals.pdb
+E:\Steam Games\steamapps\common\RimWorld\Mods\ReGrowth-Wasteland-AnimalsAddon\1.2\Source\ReGrowth-WastelandAnimals\obj\Debug\ReGrowth-WastelandAnimals.csprojAssemblyReference.cache
+E:\Steam Games\steamapps\common\RimWorld\Mods\ReGrowth-Wasteland-AnimalsAddon\1.2\Source\ReGrowth-WastelandAnimals\obj\Debug\WastelandAnimals.dll
+E:\Steam Games\steamapps\common\RimWorld\Mods\ReGrowth-Wasteland-AnimalsAddon\1.2\Source\ReGrowth-WastelandAnimals\obj\Debug\WastelandAnimals.pdb

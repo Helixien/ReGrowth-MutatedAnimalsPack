@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using Verse;
 
-namespace RGW_Wasteland
+namespace RGWF_Wasteland
 {
 	public class IncidentWorker_DeathclawsPasses : IncidentWorker
 	{
@@ -12,7 +12,7 @@ namespace RGW_Wasteland
 			Map map = (Map)parms.target;
 			if (map.gameConditionManager.ConditionIsActive(GameConditionDefOf.ToxicFallout))
 			{
-				return false;
+				return true;
 			}
 			if (!map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDefOf.Thrumbo))
 			{
@@ -33,7 +33,7 @@ namespace RGW_Wasteland
 			{
 				return false;
 			}
-			PawnKindDef deathClaws = PawnKindDef.Named("RG-WF_Rimclaw");
+			PawnKindDef deathClaws = PawnKindDef.Named("RG-WF_WastelandDeathclaw");
 			int value = GenMath.RoundRandom(StorytellerUtility.DefaultThreatPointsNow(map) / deathClaws.combatPower);
 			int max = Rand.RangeInclusive(3, 6);
 			value = Mathf.Clamp(value, 2, max);

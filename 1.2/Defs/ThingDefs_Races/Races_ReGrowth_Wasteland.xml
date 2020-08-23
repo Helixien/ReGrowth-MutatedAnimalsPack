@@ -543,16 +543,19 @@
         </lifeStages>
     </PawnKindDef>
 
-    <!-- ======================= Wasteland Deathclaw (Rimclaw) =============================== -->
+    <!-- ======================= Wasteland Deathclaw =============================== -->
     <ThingDef ParentName="AnimalThingBase">
-        <defName>RG-WF_Rimclaw</defName>
-        <label>rimclaw</label>
+        <defName>RG-WF_WastelandDeathclaw</defName>
+        <label>deathclaw</label>
         <description>Deathclaws are giant apex predators mutated from iguana, constantly roaming wasteland environements in search for prey. Rimclaws are incredibly fast, powerful and intelligent.</description>
         <statBases>
             <MoveSpeed>5.20</MoveSpeed>
             <MarketValue>2500</MarketValue>
             <ComfyTemperatureMin>-8</ComfyTemperatureMin>
-            <ComfyTemperatureMax>65</ComfyTemperatureMax>
+            <ComfyTemperatureMax>75</ComfyTemperatureMax>
+			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
         </statBases>
         <race>
             <body>RG-WF_HumanoidWithHornsAndClaws</body>
@@ -568,12 +571,33 @@
             <meatLabel>rimclaw meat</meatLabel>
             <lifeExpectancy>80</lifeExpectancy>
             <herdMigrationAllowed>false</herdMigrationAllowed>
-            <manhunterOnTameFailChance>1.00</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
+            <manhunterOnTameFailChance>0.99</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.99</manhunterOnDamageChance>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>Pawn_Rhinoceros_Wounded</soundWounded>
+					<soundDeath>Pawn_Rhinoceros_Death</soundDeath>
+					<soundCall>Pawn_Rhinoceros_Call</soundCall>
+					<soundAngry>Pawn_Rhinoceros_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
         </race>
         <comps>
             <li Class="CompProperties_EggLayer">
-                <eggFertilizedDef>RG-WF_RimclawEggFertilized</eggFertilizedDef>
+                <eggFertilizedDef>RG-WF_DeathclawEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>3</eggFertilizationCountMax>
                 <eggLayIntervalDays>30</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -639,14 +663,20 @@
     </ThingDef>
 
     <PawnKindDef ParentName="BigBirdKindBase">
-        <defName>RG-WF_Rimclaw</defName>
-        <label>rimclaw</label>
-        <race>RG-WF_Rimclaw</race>
+        <defName>RG-WF_WastelandDeathclaw</defName>
+        <label>deathclaw</label>
+        <race>RG-WF_WastelandDeathclaw</race>
         <combatPower>350</combatPower>
+		<alternateGraphicChance>0.50</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclawA</texPath></li>
+			<li><texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclawB</texPath></li>
+			<li><texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclawC</texPath></li>
+		</alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclaw</texPath>
+                    <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclawA</texPath>
                     <drawSize>1.0</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
@@ -656,7 +686,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclaw</texPath>
+                    <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclawA</texPath>
                     <drawSize>1.6</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
@@ -665,13 +695,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>Things/Pawn/Animal/Emu/Dessicated_Emu</texPath>
-                    <drawSize>1.6</drawSize>
+                    <drawSize>2.2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclaw</texPath>
-                    <drawSize>2.4</drawSize>
+                    <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclawA</texPath>
+                    <drawSize>3.2</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>

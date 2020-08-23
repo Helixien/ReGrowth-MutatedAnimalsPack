@@ -385,7 +385,7 @@
             <baseBodySize>0.40</baseBodySize>
             <baseHungerRate>3.0</baseHungerRate>
             <baseHealthScale>0.7</baseHealthScale>
-            <foodType>CarnivoreAnimalStrict</foodType>
+            <foodType>OmnivoreRoughAnimal</foodType>
             <leatherDef>Leather_Light</leatherDef>
             <wildness>0.75</wildness>
             <nameOnTameChance>1</nameOnTameChance>

@@ -124,8 +124,6 @@
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeer</texPath>
                     <drawSize>1.1</drawSize>
-                    <color>(142,126,126)</color>
-                    <shaderType>CutoutComplex</shaderType>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerBaby</texPath>
@@ -136,12 +134,6 @@
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeer</texPath>
                     <drawSize>1.5</drawSize>
-                    <color>(142,126,126)</color>
-                    <shaderType>CutoutComplex</shaderType>
-                    <shadowData>
-                        <volume>(0.3, 0.3, 0.3)</volume>
-                        <offset>(0,0,-0.3)</offset>
-                    </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerBaby</texPath>
@@ -152,22 +144,10 @@
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeerMale</texPath>
                     <drawSize>2.2</drawSize>
-                    <color>(122,103,103)</color>
-                    <shaderType>CutoutComplex</shaderType>
-                    <shadowData>
-                        <volume>(0.4, 0.4, 0.4)</volume>
-                        <offset>(0,0,-0.2)</offset>
-                    </shadowData>
                 </bodyGraphicData>
                 <femaleGraphicData>
                     <texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeerFemale</texPath>
                     <drawSize>2.2</drawSize>
-                    <color>(137,116,116)</color>
-                    <shaderType>CutoutComplex</shaderType>
-                    <shadowData>
-                        <volume>(0.4, 0.4, 0.4)</volume>
-                        <offset>(0,0,-0.2)</offset>
-                    </shadowData>
                 </femaleGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerMale</texPath>
@@ -497,6 +477,10 @@
         <defName>RG-WF_WastelandBear</defName>
         <label>rimguai</label>
         <race>RG-WF_WastelandBear</race>
+		<alternateGraphicChance>0.50</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>Things/Pawn/Animal/WastelandBear/WastelandBearB</texPath></li>
+		</alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
@@ -667,16 +651,15 @@
         <label>deathclaw</label>
         <race>RG-WF_WastelandDeathclaw</race>
         <combatPower>350</combatPower>
-		<alternateGraphicChance>0.50</alternateGraphicChance>
+		<alternateGraphicChance>0.66</alternateGraphicChance>
 		<alternateGraphics>
-			<li><texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclawA</texPath></li>
 			<li><texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclawB</texPath></li>
 			<li><texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclawC</texPath></li>
 		</alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclawA</texPath>
+                    <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclaw</texPath>
                     <drawSize>1.0</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
@@ -686,7 +669,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclawA</texPath>
+                    <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclaw</texPath>
                     <drawSize>1.6</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
@@ -700,7 +683,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclawA</texPath>
+                    <texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclaw</texPath>
                     <drawSize>3.2</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>

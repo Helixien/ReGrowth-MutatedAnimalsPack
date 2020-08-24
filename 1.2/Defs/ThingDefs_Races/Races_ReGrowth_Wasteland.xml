@@ -11,6 +11,7 @@
             <MarketValue>145</MarketValue>
             <ComfyTemperatureMin>-35</ComfyTemperatureMin>
             <ComfyTemperatureMax>25</ComfyTemperatureMax>
+			<ToxicSensitivity>0</ToxicSensitivity>
         </statBases>
         <tools>
             <li>
@@ -170,6 +171,7 @@
             <MoveSpeed>5.1</MoveSpeed>
             <MarketValue>30</MarketValue>
             <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+			<ToxicSensitivity>0</ToxicSensitivity>
         </statBases>
         <uiIconScale>2</uiIconScale>
         <tools>
@@ -307,6 +309,7 @@
             <MoveSpeed>3.3</MoveSpeed>
             <MarketValue>550</MarketValue>
             <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+			<ToxicSensitivity>0</ToxicSensitivity>
         </statBases>
         <uiIconScale>1.25</uiIconScale>
         <tools>
@@ -465,6 +468,7 @@
             <MoveSpeed>4.4</MoveSpeed>
             <ComfyTemperatureMin>-20</ComfyTemperatureMin>
             <MarketValue>800</MarketValue>
+			<ToxicSensitivity>0</ToxicSensitivity>
         </statBases>
         <race>
             <wildness>0.90</wildness>
@@ -540,6 +544,7 @@
 			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<ToxicSensitivity>0</ToxicSensitivity>
         </statBases>
         <race>
             <body>RG-WF_HumanoidWithHornsAndClaws</body>

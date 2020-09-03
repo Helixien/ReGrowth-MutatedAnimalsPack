@@ -80,8 +80,8 @@
             <nuzzleMtbHours>60</nuzzleMtbHours>
             <gestationPeriodDays>24</gestationPeriodDays>
             <lifeExpectancy>25</lifeExpectancy>
-            <manhunterOnDamageChance>5</manhunterOnDamageChance>
-            <manhunterOnTameFailChance>5</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
+            <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
             <lifeStageAges>
                 <li>
                     <def>AnimalBaby</def>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-	<name>ReGrowth - Wasteland - Animal Addon</name>
+	<name>[HLX] ReGrowth - Mutated Animals Pack</name>
 	<author>Helixien</author>
 	<supportedVersions>
 		<li>1.2</li>
@@ -9,18 +9,19 @@
 	<url></url>
 	<packageId>ReGrowth.BOTR.WastelandFauna</packageId>
 	<description>Check the workshop page for information.</description>
-	<loadAfter>
-		<li>Ludeon.RimWorld</li>
-		<li>Ludeon.RimWorld.Royalty</li>
-		<li>ReGrowth.BOTR.Wasteland</li>
-	</loadAfter>
     <modDependencies>
         <li>
             <packageId>ReGrowth.BOTR.Wasteland</packageId>
-            <displayName>ReGrowth - Wasteland</displayName>
+            <displayName>[HLX] ReGrowth - Wasteland</displayName>
             <downloadUrl>https://github.com/Helixien/ReGrowth-Wasteland</downloadUrl>
             <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2122461695</steamWorkshopUrl>
         </li>
     </modDependencies>
+	<loadAfter>
+		<li>ReGrowth.BOTR.Wasteland</li>
+	</loadAfter>
+	<loadBefore>
+		<li>Balthoraz.RimUniverse.BiomesModule</li>
+	</loadBefore>
 
 </ModMetaData>

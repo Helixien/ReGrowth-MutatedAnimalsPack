@@ -81,7 +81,6 @@
             <gestationPeriodDays>24</gestationPeriodDays>
             <lifeExpectancy>25</lifeExpectancy>
             <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
-            <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
             <lifeStageAges>
                 <li>
                     <def>AnimalBaby</def>

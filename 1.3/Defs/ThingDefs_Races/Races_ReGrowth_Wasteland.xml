@@ -12,6 +12,7 @@
             <ComfyTemperatureMin>-35</ComfyTemperatureMin>
             <ComfyTemperatureMax>25</ComfyTemperatureMax>
 			<ToxicSensitivity>0</ToxicSensitivity>
+			<FilthRate>16</FilthRate>
         </statBases>
         <tools>
             <li>
@@ -77,6 +78,7 @@
             <leatherDef>Leather_Plain</leatherDef>
             <meatLabel>venison</meatLabel>
             <wildness>0.75</wildness>
+			<roamMtbDays>2</roamMtbDays>
             <nuzzleMtbHours>60</nuzzleMtbHours>
             <gestationPeriodDays>24</gestationPeriodDays>
             <lifeExpectancy>25</lifeExpectancy>
@@ -117,8 +119,8 @@
         <combatPower>55</combatPower>
         <ecoSystemWeight>0.50</ecoSystemWeight>
         <wildGroupSize>3~9</wildGroupSize>
-        <labelMale>rimbuck</labelMale>
-        <labelFemale>rimdoe</labelFemale>
+        <labelMale>buck</labelMale>
+        <labelFemale>doe</labelFemale>
         <lifeStages>
             <li>
                 <bodyGraphicData>
@@ -309,6 +311,7 @@
             <MarketValue>550</MarketValue>
             <ComfyTemperatureMin>-35</ComfyTemperatureMin>
 			<ToxicSensitivity>0</ToxicSensitivity>
+			<FilthRate>8</FilthRate>
         </statBases>
         <uiIconScale>1.25</uiIconScale>
         <tools>
@@ -468,6 +471,7 @@
             <ComfyTemperatureMin>-20</ComfyTemperatureMin>
             <MarketValue>800</MarketValue>
 			<ToxicSensitivity>0</ToxicSensitivity>
+			<FilthRate>4</FilthRate>
         </statBases>
         <race>
             <wildness>0.90</wildness>
@@ -544,6 +548,7 @@
 			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.25</ArmorRating_Heat>
 			<ToxicSensitivity>0</ToxicSensitivity>
+			<FilthRate>8</FilthRate>
         </statBases>
         <race>
             <body>RG-WF_HumanoidWithHornsAndClaws</body>

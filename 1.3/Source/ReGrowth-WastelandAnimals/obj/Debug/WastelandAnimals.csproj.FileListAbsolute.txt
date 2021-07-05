@@ -1,0 +1,9 @@
+C:\GAMES\Rimworld\Mods\ReGrowth-Wasteland-AnimalsAddon\1.2\Assemblies\WastelandAnimals.dll
+C:\GAMES\Rimworld\Mods\ReGrowth-Wasteland-AnimalsAddon\1.2\Assemblies\WastelandAnimals.pdb
+C:\GAMES\Rimworld\Mods\ReGrowth-Wasteland-AnimalsAddon\1.2\Source\WastelandAnimals\obj\Debug\WastelandAnimals.csprojAssemblyReference.cache
+C:\GAMES\Rimworld\Mods\ReGrowth-Wasteland-AnimalsAddon\1.2\Source\WastelandAnimals\obj\Debug\WastelandAnimals.csproj.CoreCompileInputs.cache
+C:\GAMES\Rimworld\Mods\ReGrowth-Wasteland-AnimalsAddon\1.2\Source\WastelandAnimals\obj\Debug\WastelandAnimals.dll
+C:\GAMES\Rimworld\Mods\ReGrowth-Wasteland-AnimalsAddon\1.2\Source\WastelandAnimals\obj\Debug\WastelandAnimals.pdb
+C:\Users\Wilhelm A. BLECHA\Documents\GitHub\ReGrowth-Wasteland-AnimalsAddon\1.2\Source\WastelandAnimals\obj\Debug\WastelandAnimals.csprojAssemblyReference.cache
+C:\Users\Wilhelm A. BLECHA\Documents\GitHub\ReGrowth-Wasteland-AnimalsAddon\1.2\Source\WastelandAnimals\obj\Debug\WastelandAnimals.dll
+C:\Users\Wilhelm A. BLECHA\Documents\GitHub\ReGrowth-Wasteland-AnimalsAddon\1.2\Source\WastelandAnimals\obj\Debug\WastelandAnimals.pdb

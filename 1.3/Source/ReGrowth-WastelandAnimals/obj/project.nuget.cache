@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oxXDtAIuqu9fpsmnTpQGsbr4hMRlF8YsM1WPDYt1ovvTBZDSr28yTYT20pgBBwGrZCf9xi3wyK6r0GLeHLJ0RQ==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ReGrowth-MutatedAnimalsPack\\1.3\\Source\\ReGrowth-WastelandAnimals\\ReGrowth-WastelandAnimals.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vova\\.nuget\\packages\\krafs.rimworld.ref\\1.3.3050-beta\\krafs.rimworld.ref.1.3.3050-beta.nupkg.sha512"
+  ],
+  "logs": []
+}

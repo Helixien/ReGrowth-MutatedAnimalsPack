@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+			<li>ReGrowth - Wasteland</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="RG-W_Wasteland"]/wildAnimals</xpath>
+                    <value>
+                        <RG-WF_WastelandDeer>0.8</RG-WF_WastelandDeer>
+                        <RG-WF_WastelandSquirrel>0.9</RG-WF_WastelandSquirrel>
+                        <RG-WF_WastelandBeaver>0.5</RG-WF_WastelandBeaver>
+						<RG-WF_WastelandBear>0.07</RG-WF_WastelandBear>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

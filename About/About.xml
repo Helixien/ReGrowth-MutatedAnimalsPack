@@ -21,7 +21,7 @@
         </li>
     </modDependencies>
 	<loadAfter>
-		<li>ReGrowth.BOTR.Wasteland</li>
+		<li>ReGrowth.BOTR.Wastelands</li>
 	</loadAfter>
 	<loadBefore>
 		<li>Balthoraz.RimUniverse.BiomesModule</li>

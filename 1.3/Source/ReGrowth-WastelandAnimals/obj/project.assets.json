@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.7.2": {
-      "Krafs.Rimworld.Ref/1.3.3050-beta": {
+      "Krafs.Rimworld.Ref/1.3.3055-beta": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -32,7 +32,6 @@
           "ref/net472/UnityEngine.ClusterInputModule.dll": {},
           "ref/net472/UnityEngine.ClusterRendererModule.dll": {},
           "ref/net472/UnityEngine.CoreModule.dll": {},
-          "ref/net472/UnityEngine.CoreModule_publicised.dll": {},
           "ref/net472/UnityEngine.CrashReportingModule.dll": {},
           "ref/net472/UnityEngine.DSPGraphModule.dll": {},
           "ref/net472/UnityEngine.DirectorModule.dll": {},
@@ -88,7 +87,7 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win": {
-      "Krafs.Rimworld.Ref/1.3.3050-beta": {
+      "Krafs.Rimworld.Ref/1.3.3055-beta": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -118,7 +117,6 @@
           "ref/net472/UnityEngine.ClusterInputModule.dll": {},
           "ref/net472/UnityEngine.ClusterRendererModule.dll": {},
           "ref/net472/UnityEngine.CoreModule.dll": {},
-          "ref/net472/UnityEngine.CoreModule_publicised.dll": {},
           "ref/net472/UnityEngine.CrashReportingModule.dll": {},
           "ref/net472/UnityEngine.DSPGraphModule.dll": {},
           "ref/net472/UnityEngine.DirectorModule.dll": {},
@@ -174,7 +172,7 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win-x64": {
-      "Krafs.Rimworld.Ref/1.3.3050-beta": {
+      "Krafs.Rimworld.Ref/1.3.3055-beta": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -204,7 +202,6 @@
           "ref/net472/UnityEngine.ClusterInputModule.dll": {},
           "ref/net472/UnityEngine.ClusterRendererModule.dll": {},
           "ref/net472/UnityEngine.CoreModule.dll": {},
-          "ref/net472/UnityEngine.CoreModule_publicised.dll": {},
           "ref/net472/UnityEngine.CrashReportingModule.dll": {},
           "ref/net472/UnityEngine.DSPGraphModule.dll": {},
           "ref/net472/UnityEngine.DirectorModule.dll": {},
@@ -260,7 +257,7 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win-x86": {
-      "Krafs.Rimworld.Ref/1.3.3050-beta": {
+      "Krafs.Rimworld.Ref/1.3.3055-beta": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -290,7 +287,6 @@
           "ref/net472/UnityEngine.ClusterInputModule.dll": {},
           "ref/net472/UnityEngine.ClusterRendererModule.dll": {},
           "ref/net472/UnityEngine.CoreModule.dll": {},
-          "ref/net472/UnityEngine.CoreModule_publicised.dll": {},
           "ref/net472/UnityEngine.CrashReportingModule.dll": {},
           "ref/net472/UnityEngine.DSPGraphModule.dll": {},
           "ref/net472/UnityEngine.DirectorModule.dll": {},
@@ -347,20 +343,19 @@
     }
   },
   "libraries": {
-    "Krafs.Rimworld.Ref/1.3.3050-beta": {
-      "sha512": "44DHOrDvhEi/iEIYU93J7O+vzVrWCkoO1MagdC6Y/oT24gb8VWADNO52kZ5YfUjuOdQM5qSbp5hFTowFZxz0Ag==",
+    "Krafs.Rimworld.Ref/1.3.3055-beta": {
+      "sha512": "tURBwr26rqHoZDAuc6nUejlKoYxoNic/J+zFqKfZ6DIdkNBXs8VouY9jhMJxO/gHgmQTw1zGfFhS3Uv4yvbS6w==",
       "type": "package",
-      "path": "krafs.rimworld.ref/1.3.3050-beta",
+      "path": "krafs.rimworld.ref/1.3.3055-beta",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
         "icon.png",
-        "krafs.rimworld.ref.1.3.3050-beta.nupkg.sha512",
+        "krafs.rimworld.ref.1.3.3055-beta.nupkg.sha512",
         "krafs.rimworld.ref.nuspec",
         "ref/net472/Assembly-CSharp-firstpass.dll",
         "ref/net472/Assembly-CSharp.dll",
-        "ref/net472/Assembly-CSharp_hash.hash",
         "ref/net472/ISharpZipLib.dll",
         "ref/net472/Mono.Posix.dll",
         "ref/net472/Mono.Security.dll",
@@ -386,8 +381,6 @@
         "ref/net472/UnityEngine.ClusterInputModule.dll",
         "ref/net472/UnityEngine.ClusterRendererModule.dll",
         "ref/net472/UnityEngine.CoreModule.dll",
-        "ref/net472/UnityEngine.CoreModule_hash.hash",
-        "ref/net472/UnityEngine.CoreModule_publicised.dll",
         "ref/net472/UnityEngine.CrashReportingModule.dll",
         "ref/net472/UnityEngine.DSPGraphModule.dll",
         "ref/net472/UnityEngine.DirectorModule.dll",
@@ -444,7 +437,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
-      "Krafs.Rimworld.Ref >= 1.3.3050-beta"
+      "Krafs.Rimworld.Ref >= 1.3.3055-beta"
     ]
   },
   "packageFolders": {
@@ -482,7 +475,7 @@
         "dependencies": {
           "Krafs.Rimworld.Ref": {
             "target": "Package",
-            "version": "[1.3.3050-beta, )"
+            "version": "[1.3.3055-beta, )"
           }
         }
       }
